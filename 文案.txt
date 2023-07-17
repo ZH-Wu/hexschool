@@ -1,0 +1,47 @@
+<TOPBAR>
+WILLIAM LEE
+BASED IN TAIWAN
+CURRENTLY FRONT END ENGINEER AT HEXSCHOOL
+CONTACT US
+
+<PROFILE>
+Hi
+I'm a front-end 
+developer
+William
+contact me
+
+<INTRODUCTION>
+Introduction
+
+Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful and responsive websites that provide an optimal user experience.
+
+<ABOUT ME>
+Attention to Detail
+Meticulous code analysis and optimization.
+
+Adaptability 
+Swift learning of new technologies.
+
+Problem Solver
+Identifying and resolving issues.
+
+Team Player
+Collaborates and shares ideas.
+
+About Me
+
+With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and React. I have a strong understanding of user experience design and accessibility. I'm always learning new technologies and techniques to stay up-to-date in the field.
+
+<Contact me>
+CONTACT ME
+
+<MY PROJECTS>
+My Projects
+
+I've worked on a variety of websites, including e-commerce sites, blogs, and landing pages. I take pride in creating clean, efficient, and user-friendly code.
+
+<FOOTER>
+all rights reserved @hexschool2023
+
+
