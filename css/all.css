@@ -147,7 +147,7 @@ h2 {
     transition: .35s;
 }
 .share img:hover {
-    box-shadow: 0 0 16px 3px rgb(144, 148, 255, .9);
+    box-shadow: 0 0 16px 3px rgba(144, 148, 255, .9);
 }
 
 /* My Projects */
