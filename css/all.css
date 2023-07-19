@@ -110,6 +110,8 @@ h2 {
 .skill-set li {
     padding: 16px;
     width: 306px;
+    border: 1px solid #e3e3e3;
+    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0, .08);
 }
 .skill-set li span {
     margin: 4px 0;
@@ -141,10 +143,11 @@ h2 {
 .share img {
     width: 162px;
     height: 162px;
+    border-radius: 40px;
     transition: .35s;
 }
 .share img:hover {
-    transform: scale(1.2);
+    box-shadow: 0 0 16px 3px rgb(144, 148, 255, .9);
 }
 
 /* My Projects */
