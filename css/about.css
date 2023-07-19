@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    font-family: 'Bruno Ace SC', cursive;
+    max-width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+#about-me {
+    padding: 160px 0;
+}
+.skill-set {
+    width: 636px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-wrap: wrap;
+
+}
+.skill-set li {
+    padding: 16px;
+    width: 306px;
+}
+.skill-set li:first-child,
+.skill-set li:nth-child(2) {
+    margin-bottom: 24px;
+}
+.skill-set h3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.skill-set p {
+    margin-bottom: 4px;
+}
+.skill-set span {
+    display: block;
+}
+.about {
+    width: 526px;
+}
+.about h2 {
+    font-size: 64px;
+    margin-bottom: 36px;
+}
+.about p {
+    font-size: 24px;
+}
+
+#contact-us {
+    background: linear-gradient(#050014, #01021E);
+    color: #fff;
+}
+#contact-us .container {
+    max-width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0;
+    border: 1px solid #fff;
+}
+h2 {
+    font-size: 64px;
+    border: 1px solid #fff;
+    display: flex;
+    
+}
+
+.share {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+}

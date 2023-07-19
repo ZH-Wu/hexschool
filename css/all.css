@@ -1,0 +1,173 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bruno Ace SC', cursive;
+    line-height: 1.5;
+}
+img, a, span {
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+h1 {
+    font-size: 128px;
+    color: #00FFA3;
+    text-align: right;
+}
+h2 {
+    font-size: 64px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.text-primary {
+    color: #fff;
+}
+.d-flex {
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
+.mb-24 {
+    margin-bottom: 24px;
+}
+.mr-24 {
+    margin-right: 24px;
+}
+.pt-160 {
+    padding-top: 160px;
+}
+.pb-160 {
+    padding-bottom: 160px;
+}
+.bg-primary {
+    background-color: #000;
+}
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.btn {
+    width: 185px;
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+.btn:hover {
+    opacity: .8;
+}
+/* header */
+.topbar {
+    padding-top: 40px;
+}
+.topbar a:hover {
+    color: #00FFA3;
+}
+.banner {
+    padding: 72px 0;
+}
+.self-intro {
+    width: 636px;
+    align-self: center;
+}
+.self-intro .btn {
+    background-color: #fff;
+    margin-left: auto;
+}
+.self-intro .btn img {
+    margin-left: 4px;
+} 
+
+/* Introduction */
+.introduction {
+    background-image: url(../images/darkwave_bg.png);
+}
+.intro {
+    align-self: start;
+}
+.intro h2 {
+    margin-bottom: 36px;
+}
+.intro p {
+    margin-bottom: 32px;
+}
+.sparkle-group {
+    width: 128px;
+}
+
+/* About Me */
+.skill-set {
+    flex-wrap: wrap;
+    width: 636px;
+    align-self: center;
+}
+.skill-set li {
+    padding: 16px;
+    width: 306px;
+}
+.skill-set li span {
+    margin: 4px 0;
+}
+.about {
+    width: 526px;
+}
+.about h2 {
+    margin-bottom: 36px;
+}
+
+/* Contact Me */
+.contact_me {
+    background: linear-gradient(#050014, #01021E);
+    padding: 96px 0;
+}
+.contact_me h2 {
+    align-self: center;
+}
+.contact_me h2 img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-left: 13px;
+}
+.share {
+    width: 526px;
+}
+.share img {
+    width: 162px;
+    height: 162px;
+    transition: .35s;
+}
+.share img:hover {
+    transform: scale(1.2);
+}
+
+/* My Projects */
+.my_project h2 {
+    margin-left: auto;
+    width: 746px;
+    margin-bottom: 16px;
+}
+.article {
+    margin-bottom: 28px;
+}
+.content p {
+    margin-bottom: 76px;
+}
+.content .btn {
+    background-color: #000;
+}
+.content .btn img {
+    margin-left: 4px;
+}
+
+/* Footer */
+footer {
+    padding: 40px 0;
+    text-align: center;
+}

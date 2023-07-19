@@ -63,12 +63,7 @@ h2 {
     width: 185px;
     padding: 12px 24px;
     border-radius: 32px;
-    position: relative;
 }
-.btn::after {
-    position: absolute;
-    top: 12px;
-    right: 24px;
-}
+
 
 
