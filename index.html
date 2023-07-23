@@ -4,161 +4,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>個人網站首頁</title>
+    <title>首頁</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/all.css">
 </head>
 
 <body>
-    <div class="wrap">
-        <header class="bg-primary">
-            <div class="container">
-                <nav>
-                    <ul class="topbar d-flex space-between">
-                        <li><a href="#">WILLIAM LEE</a></li>
-                        <li><a href="#">BASED IN TAIWAN</a></li>
-                        <li><a href="#">CURRENTLY FRONT END <br> ENGINEER AT HEXSCHOOL</a></li>
-                        <li><a href="#">CONTACT ME</a></li>
-                    </ul>
-                </nav>
-                <div class="banner d-flex space-between">
-                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/people.png?raw=true"
-                        alt="Profile Picture">
-                    <ul class="profile">
-                        <li>
-                            <h2 class="text-primary">Hi <br> I'm a front-end <br> developer</h2>
-                        </li>
-                        <li>
-                            <h1>William</h1>
-                        </li>
-                        <li><a href="#" class="btn d-flex space-between">contact me <img
-                                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward.png?raw=true"
-                                    alt="arrow-outward"></a></li>
-                    </ul>
+    <header class="bg-primary">
+        <div class="container">
+            <nav>
+                <ul class="topbar d-flex space-between">
+                    <li><a href="#" class="text-primary">WILLIAM LEE</a></li>
+                    <li><a href="#" class="text-primary">BASED IN TAIWAN
+                        </a></li>
+                    <li><a href="#" class="text-primary">CURRENTLY FRONT END <span> ENGINEER AT HEXSCHOOL </span>
+                        </a></li>
+                    <li><a href="#" class="text-primary">CONTACT US
+                        </a></li>
+                </ul>
+            </nav>
+            <div class="banner d-flex">
+                <img src="./images/profile.png" alt="profile" class="mr-24">
+                <div class="self-intro">
+                    <h2 class="text-primary">Hi<span>I'm a front-end</span>developer</h2>
+                    <h1>William</h1>
+                    <a href="#" class="btn d-flex">contact me <img src="./images/black_arrow_outward.png"
+                            alt="black arrow"></a>
                 </div>
             </div>
-        </header>
-        <main>
-            <section id="introduction">
-                <div class="container d-flex space-between text-primary pt-160 pb-160">
-                    <div class="self-intro">
-                        <h2>Introduction</h2>
-                        <p class="fs-24">Hi, I'm William Lee, a Front-End Developer with a passion for building
-                            beautiful and
-                            responsive websites that provide an optimal user experience.</p>
-                        <ul class="sparkle-group d-flex space-between">
-                            <li><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true"
-                                    alt="sparkle-sm"></li>
-                            <li><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true"
-                                    alt="sparkle-sm"></li>
-                            <li><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true"
-                                    alt="sparkle-sm"></li>
-                        </ul>
-                    </div>
-                    <ul class="gallery d-flex">
-                        <li class="mr-24"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle.png?raw=true"
-                                alt="sparkle"></li>
-                        <li class="mr-24"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/photographer.png?raw=true"
-                                alt="photographer"></li>
-                        <li><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/people-2.png?raw=true"
-                                alt="a mysterious man covering half of his face with his arm"></li>
+        </div>
+    </header>
+    <main>
+        <section class="introduction pt-160 pb-160">
+            <div class="container d-flex">
+                <div class="intro text-primary">
+                    <h2>Introduction
+                    </h2>
+                    <p class="fs-24">Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful
+                        and responsive websites that provide an optimal user experience.
+                    </p>
+                    <ul class="sparkle-group d-flex space-between">
+                        <li><img src="./images/sparkle-sm.png" alt="sparkle-small"></li>
+                        <li><img src="./images/sparkle-sm.png" alt="sparkle-small"></li>
+                        <li><img src="./images/sparkle-sm.png" alt="sparkle-small"></li>
+                        
                     </ul>
                 </div>
-            </section>
-            <section id="aboutMe">
-                <div class="container d-flex space-between">
-                    <article class="left-part">
-                        <ul class="skill-set d-flex space-between">
-                            <li class="mb-24">
-                                <h3 class="fs-20">01</h3>
-                                <p class="fs-20">Attention to Detail</p>
-                                <p>Meticulous code analysis and optimization.</p>
-                            </li>
-                            <li class="mb-24">
-                                <h3 class="fs-20">02</h3>
-                                <p class="fs-20">Adaptability</p>
-                                <p>Swift learning of new technologies.</p>
-                            </li>
-                            <li>
-                                <h3 class="fs-20">03</h3>
-                                <p class="fs-20">Problem Solver</p>
-                                <p>Identifying and resolving issues.</p>
-                            </li>
-                            <li>
-                                <h3 class="fs-20">04</h3>
-                                <p class="fs-20">Team Player</p>
-                                <p>Collaborates and shares ideas.</p>
-                            </li>
-                        </ul>
-                    </article>
-                    <article class="right-part">
-                        <div class="skill-description">
-                            <h2>About me</h2>
-                            <p class="fs-24">With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript,
-                                jQuery, and React.
-                                I have a strong understanding of user experience design and accessibility. I'm always
-                                learning new technologies and techniques to stay up-to-date in the field.</p>
+                <ul class="gallery d-flex">
+                    <li><img src="./images/sparkle.png" alt="sparkle" class="mr-24"></li>
+                    <li><img src="./images/photographer.png" alt="photographer" class="mr-24"></li>
+                    <li><img src="./images/myterious_person.png" alt="mysterious person"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="about_me pt-160 pb-160">
+            <div class="container d-flex space-between">
+                <ul class="skill-set d-flex space-between">
+                    <li class="mb-24">
+                        <h3 class="fs-20">01<span>Attention to Detail
+                            </span></h3>
+                        <p>Meticulous code analysis and optimization.
+                        </p>
+                    </li>
+                    <li class="mb-24">
+                        <h3 class="fs-20">02<span>Adaptability
+                            </span></h3>
+                        <p>Swift learning of new technologies.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="fs-20">03<span>Problem Solver
+                            </span></h3>
+                        <p>Identifying and resolving issues.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="fs-20">04<span>Team Player
+                            </span></h3>
+                        <p>Collaborates and shares ideas.
+                        </p>
+                    </li>
+                </ul>
+                <div class="about">
+                    <h2>About Me
+                    </h2>
+                    <p class="fs-24">With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery,
+                        and React. I have a strong understanding of user experience design and accessibility. I'm always
+                        learning new technologies and techniques to stay up-to-date in the field.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contact_me">
+            <div class="container d-flex space-between">
+                <h2 class="d-flex text-primary">CONTACT ME
+                    <img src="./images/white_arrow.png" alt="white arrow">
+                </h2>
+                <ul class="share d-flex space-between">
+                    <li><a href="#"><img src="./images/discord.png" alt="discord icon"></a></li>
+                    <li><a href="#"><img src="./images/instagram.png" alt="ig icon"></a></li>
+                    <li><a href="#"><img src="./images/messenger.png" alt="messenger icon"></a></li>
+                </ul>
+            </div>
+        </section>
+        <div class="my_project pt-160 pb-160">
+            <div class="container">
+                <h2>My Projects
+                </h2>
+                <div class="project d-flex">
+                    <img src="./images/laptop.png" alt="laptop" class="mr-24">
+                    <div class="right-section">
+                        <div class="article d-flex">
+                            <img src="./images/coding.png" alt="coding" class="mr-24">
+                            <div class="content">
+                                <p>I've worked on a variety of websites, including e-commerce sites, blogs, and landing
+                                    pages. I take pride in creating clean, efficient, and user-friendly code.
+                                </p>
+                                <a href="#" class="btn d-flex text-primary">SEE MORE <img src="./images/white_arrow_outward.png"
+                                        alt="white-arrow-outward"></a>
+                            </div>
                         </div>
-                    </article>
-                </div>
-            </section>
-            <section id="contactUs">
-                <div class="container d-flex space-between">
-                    <article class="left-part">
-                        <h2 class="text-primary d-flex">CONTACT ME<img
-                                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/trending_flat_black_24dp%201.png?raw=true"
-                                alt="arrow-outward-white"> </h2>
-                    </article>
-                    <article class="right-part">
-                        <ul class="d-flex space-between">
-                            <li><a href="#"><img
-                                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/discord.png?raw=true"
-                                        alt="discord icon"></a></li>
-                            <li><a href="#"><img
-                                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/instagram.png?raw=true"
-                                        alt="instagram icon"></a></li>
-                            <li><a href="#"><img
-                                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/message.png?raw=true"
-                                        alt="messenger icon"></a></li>
-                        </ul>
-                    </article>
-                </div>
-            </section>
-            <section id="myProject">
-                <div class="container pt-160 pb-160">
-                    <h2>My Projects</h2>
-                    <div class="collection d-flex">
-                        <img class="mr-24" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2010.png?raw=true"
-                            alt="laptop">
-                        <div class="project">
-                            <article class="upperPart d-flex">
-                                <img class="mr-24" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2015.png?raw=true"
-                                    alt="coding">
-                                <div class="description">
-                                    <p>I've worked on a variety of websites, including e-commerce sites, blogs, and
-                                        landing pages. I take pride in creating clean, efficient, and user-friendly
-                                        code.</p>
-                                    <a href="#" class="bg-primary btn d-flex space-between">SEE MORE <img
-                                            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward-white.png?raw=true"
-                                            alt="arrow-outward-white"> </a>
-                                </div>
-                            </article>
-                            <article class="lowerPart d-flex">
-                                <img class="mr-24" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2014.png?raw=true"
-                                    alt="mobile phone">
-                                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2029.png?raw=true"
-                                    alt="Mac">
-                            </article>
+                        <div class="lower-section d-flex">
+                            <img src="./images/mobile.png" alt="mobile" class="mr-24">
+                            <img src="./images/computer.png" alt="computer">
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
-        <footer class="bg-primary">all rights reserved @hexschool 2023</footer>
-    </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-primary text-primary">
+        all rights reserved @hexschool2023
+    </footer>
 </body>
 
 </html>
